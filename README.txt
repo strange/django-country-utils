@@ -2,7 +2,7 @@
 Django Country Utils
 ====================
 
-A simple toss-in application I use to a CountryField to Django projects.
+A dirty toss-in application I use to add a CountryField to Django projects.
 
 Installation
 ============
