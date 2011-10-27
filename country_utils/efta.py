@@ -1,3 +1,6 @@
+# Codes and information scraped (2011-10-28) from:
+# http://epp.eurostat.ec.europa.eu/statistics_explained/index.php/Glossary:Country_codes
+
 MEMBER_STATES = (
     'IS',
     'LI',
