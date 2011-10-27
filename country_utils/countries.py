@@ -264,6 +264,10 @@ class CountryDoesNotExistException(Exception):
 
 
 def get_country(iso_code, countries=COUNTRY_CHOICES):
+    """Return proper country name for `iso_code`. Will raise a
+    `CountryDoesNotExistException` if a matching entry cannot be found.
+
+    """
     for country in countries:
         if country[0] == iso_code:
             return country
